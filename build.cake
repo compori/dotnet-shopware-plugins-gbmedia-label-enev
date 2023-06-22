@@ -122,7 +122,7 @@ Task("Test")
     CreateDirectory(codeCoverageDirectory);
 
     var includeFilter = "[Compori.Shopware*]Compori.Shopware*";
-    var excludeFilter = "[xunit.*]*,[*]Compori.Shopware.MimeTypes*";
+    var excludeFilter = "[xunit.*]*,[Compori.Shopware.Core*]*";
 
     var coverletPath = Context.Tools.Resolve("coverlet.console.dll");
     Information("coverlet.exe: " + (coverletPath ?? "N/A"));

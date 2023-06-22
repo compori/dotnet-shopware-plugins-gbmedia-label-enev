@@ -1,2 +1,2 @@
-﻿# Shopware 6 API Client
+﻿# Shopware 6 API Client for GB Media Label für Energieeinsparverordnung (EnEV)
 
